@@ -357,6 +357,7 @@ transition: 200ms ease-in-out;
 .lamp-icon{ 
     padding: 5px 5px 8px 5px;
     font-size: 32px;
+    color: white;
 }
 .lamp-icon:hover { 
     background: #202042;

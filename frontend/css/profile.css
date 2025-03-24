@@ -381,6 +381,7 @@ transition: 200ms ease-in-out;
 .manage-acc-icon { 
     padding: 5px 5px 8px 5px;
     font-size: 32px;
+    color: white;
 }
 .manage-acc-icon:hover { 
     background: #202042;
@@ -707,7 +708,7 @@ select {
     width: 704px;
     height: 551px;
     padding: 2px;
-    
+    margin-bottom: 0;
 }
 
 .content.active {
@@ -1063,6 +1064,8 @@ select {
 }
 /* footer */
 .footer { 
+    margin-top: 0;
+    margin-bottom: 0;
     width: 100%;
     position: relative;
     display: flex;
@@ -1083,12 +1086,14 @@ select {
     color: #ddd;
     letter-spacing: 1px;
     font-weight: 500;
+    top: -33rem;
 }
 .footer-info p{ 
     margin: 10px;
     font-size: 16px;
     color: #ddd;
     position: absolute;
+    top: -33rem;
     right: 20px;
 }
 

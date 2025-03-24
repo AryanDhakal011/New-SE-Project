@@ -348,6 +348,7 @@ transition: 200ms ease-in-out;
 .home-icon { 
     padding: 5px 5px 8px 5px;
     font-size: 32px;
+    color: white;
     
 }
 .home-icon:hover { 

@@ -35,7 +35,7 @@ loginForm.addEventListener('submit', (e) => {
       localStorage.setItem('id', res.id);
       localStorage.setItem('email', res.email);
       if (res.email === localStorage.getItem('email')) {
-        window.location.href = 'http://localhost:8080/html/home.html';
+        window.location.href = 'http://localhost:8080/html/index.html';
       }
 
       console.log(res.email === localStorage.getItem('email'));
