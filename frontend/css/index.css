@@ -963,6 +963,8 @@ gap: 6px;
 .current-thermo { 
     position: relative;
     left: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 .theromostat-info { 
     display: flex;
